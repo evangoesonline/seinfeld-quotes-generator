@@ -7,6 +7,8 @@
 h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
+    font-size: 1.5em;
+    margin: 0 0 .5rem;
 }
 
 p {
@@ -17,10 +19,16 @@ p {
 h2 {
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
+    font-size: 1em;
+    margin: 0 auto .5rem;
 }
 
 header img {
     max-width: 100%;
+}
+
+.main-quote {
+    margin: 0 0 6rem 0;
 }
 
 button {
@@ -37,7 +45,7 @@ button {
     cursor: pointer;
     font-weight: 600;
     font-size: 1.25em;
-
+    margin: 0 0 3rem;
 }
 
 .button2 {
@@ -53,21 +61,24 @@ button {
 
 
 footer {
-    /*position: fixed;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: #fcd720;
-    color: #e30922;
-    text-align: center;
-    padding: 2rem 0;
+    padding: 1.5rem 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;*/
-    font-family: 'Lato', sans-serif;
-    font-size: 12px;
-    background-color: #383e44;
-    padding: .5rem 0 .5rem 0;
-    font-weight: bold;
-    color: #fff;
+    font-size: 1.5em;
+    color: #e30922;
+}
 
+/*Start desktop styling */
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
 }
