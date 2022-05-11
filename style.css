@@ -69,7 +69,8 @@ footer {
     padding: 1.5rem 0;
     font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
-    color: #e30922;
+    text-align: center;
+    margin: auto;
 }
 
 /*Start desktop styling */
