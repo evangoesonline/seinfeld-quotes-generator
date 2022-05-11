@@ -31,6 +31,10 @@ header img {
     margin: 0 0 6rem 0;
 }
 
+.characterImage {
+    max-width: 100%;
+}
+
 button {
     background-color: #4CAF50;
     border: none;
@@ -65,13 +69,11 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    color: #e30922;
     background-color: #fcd720;
     padding: 1.5rem 0;
     font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
-    text-align: center;
-    margin: auto;
+    color: #e30922;
 }
 
 /*Start desktop styling */
